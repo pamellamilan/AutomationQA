@@ -1,0 +1,15 @@
+{
+  "name": "agi-blog-search-automation",
+  "version": "1.0.0",
+  "description": "Automação web em Cypress para o teste técnico QA do Blog do Agi.",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run --browser chrome",
+    "test:headless": "cypress run",
+    "test:edge": "cypress run --browser edge"
+  },
+  "devDependencies": {
+    "cypress": "14.5.4"
+  }
+}
